@@ -29,7 +29,7 @@ def password_generator():
 
     pass_list = list(password)
     rand.shuffle(pass_list)
-##
+###
     for i in pass_list:
         new_password += i
 
